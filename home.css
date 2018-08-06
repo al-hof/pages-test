@@ -1,0 +1,72 @@
+body {
+	margin:0;
+}
+
+
+header {
+	background: #bde2ef;
+	height: 90PX;
+	position: relative;
+	top: 0px;
+	left: 0px;
+
+}
+
+article {
+	background-color: lightgreen;
+	width: 70%;
+	height: 500px;
+	margin: 10px 15px;
+	float: right;
+}
+
+aside {
+	background-color: #9e45b2;
+	width: 25%;
+	height: 500px;
+	margin: 10px 15px;
+}
+
+footer {
+	background-color: #555960;
+	min-height: 100px;
+	margin:0;
+
+}
+
+div p {
+	display: inline-block;
+	box-sizing: border-box;
+	color: red;
+	width: 80px;
+	text-align: center;
+	padding: 5px 8px;
+	flex-direction: row;
+	margin: 0px 0px 0px -3px;
+}
+
+.htab {
+	background-color: #6cb3cc;
+	height: 28.5px;
+}
+
+header > div {
+	position: relative;
+	height: 65px;
+}
+
+a:link {
+	text-decoration: none;	
+	
+}
+
+a:hover, a:visited {
+	color: #FFFFFF;
+	background-color: #04526d;
+	text-align: center;
+	padding: 5px 8px;
+	width: 80px;
+
+	
+}
+
